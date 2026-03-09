@@ -1,148 +1,220 @@
-Machine Learning Exploratory Data Analysis (EDA)
+Machine Learning Data Analysis Projects
 
-This repository contains Jupyter Notebook files that demonstrate data analysis, preprocessing, and feature engineering on real-world datasets using Python.
+This repository contains data analysis and preprocessing projects implemented using Python and Jupyter Notebook.
+The main focus of these notebooks is to understand datasets, perform Exploratory Data Analysis (EDA), clean the data, engineer useful features, and analyze relationships between variables before applying machine learning models.
 
-The goal of this project is to understand datasets, clean the data, perform exploratory data analysis (EDA), and prepare the data for machine learning models.
+These projects demonstrate data handling, visualization, and statistical analysis skills, which are important steps in any machine learning pipeline.
 
-Project Structure
+📁 Repository Structure
 ML-work-
 │
-├── Untitled.ipynb     # Insurance dataset analysis
-├── Heart.ipynb        # Heart disease dataset analysis
+├── Untitled.ipynb   → Insurance Dataset Data Analysis
+├── Heart.ipynb      → Heart Disease Dataset Analysis
 └── README.md
-Notebooks Overview
-1. Insurance Dataset Analysis (Untitled.ipynb)
 
-This notebook focuses on analyzing an insurance dataset to understand factors affecting medical insurance charges.
+Each notebook focuses on understanding the dataset and preparing it for machine learning tasks.
 
-Steps Performed
+📊 Project 1: Insurance Dataset Analysis
 
-Import required libraries
+📄 File: Untitled.ipynb
 
-Load dataset
+This notebook analyzes a medical insurance dataset to understand how different factors influence insurance charges.
 
-Data exploration
+🔎 Tasks Performed
+1️⃣ Data Loading
 
-Data cleaning
+Imported dataset using Pandas
+
+Checked dataset structure using:
+
+head()
+
+info()
+
+describe()
+
+2️⃣ Data Cleaning
+
+Checked for missing values
+
+Verified data types of each column
+
+Ensured dataset consistency
+
+3️⃣ Feature Engineering
+
+Created additional features to improve analysis:
+
+Gender encoding
+
+Smoker status encoding
+
+Region encoding
+
+BMI category classification
+
+Example BMI categories created:
+
+Underweight
+
+Normal
+
+Overweight
+
+Obese
+
+4️⃣ Exploratory Data Analysis (EDA)
+
+Performed detailed analysis to understand relationships between variables.
+
+Analysis included:
+
+Age vs Insurance Charges
+
+BMI vs Charges
+
+Smoking status impact
+
+Gender distribution
+
+Regional analysis
+
+5️⃣ Data Visualization
+
+Used Matplotlib and Seaborn to visualize patterns in the dataset:
+
+Histograms
+
+Count plots
+
+Correlation heatmaps
+
+Distribution plots
+
+These visualizations helped identify important features affecting insurance cost.
+
+❤️ Project 2: Heart Disease Dataset Analysis
+
+📄 File: Heart.ipynb
+
+This notebook analyzes a heart disease dataset to understand factors that contribute to heart disease.
+
+The aim is to explore the dataset and identify important medical attributes that could be useful for prediction models.
+
+🔎 Tasks Performed
+1️⃣ Data Exploration
+
+Examined the dataset structure:
+
+Total number of records
+
+Feature descriptions
+
+Data types
+
+Important medical attributes studied include:
+
+Age
+
+Sex
+
+Chest pain type
+
+Resting blood pressure
+
+Cholesterol level
+
+Maximum heart rate
+
+Exercise induced angina
+
+2️⃣ Data Cleaning
+
+Performed preprocessing steps such as:
 
 Handling missing values
 
-Feature engineering
+Checking inconsistent data
 
-Data visualization
+Preparing dataset for analysis
+
+3️⃣ Exploratory Data Analysis (EDA)
+
+Analyzed relationships between heart disease and different features.
+
+Key analysis performed:
+
+Age distribution of patients
+
+Gender-based heart disease risk
+
+Impact of cholesterol levels
+
+Blood pressure trends
+
+Chest pain type distribution
+
+4️⃣ Data Visualization
+
+Created visualizations to understand patterns in the dataset:
+
+Bar charts
+
+Histograms
 
 Correlation analysis
 
-Libraries Used
+Feature distribution plots
 
-numpy
+These visualizations help understand which features strongly influence heart disease.
 
-pandas
+🛠️ Technologies Used
 
-seaborn
+The following tools and libraries were used in these projects:
 
-matplotlib
+Technology	Purpose
+Python	Programming language
+Jupyter Notebook	Interactive development environment
+Pandas	Data manipulation and analysis
+NumPy	Numerical operations
+Matplotlib	Data visualization
+Seaborn	Statistical visualization
+📈 Skills Demonstrated
 
-Example Tasks
+These projects showcase the following skills:
 
-Checking dataset shape and structure
+✔ Data Cleaning
+✔ Exploratory Data Analysis (EDA)
+✔ Feature Engineering
+✔ Data Visualization
+✔ Statistical Analysis
+✔ Dataset Preparation for Machine Learning
 
-Understanding features like:
-
-age
-
-BMI
-
-children
-
-smoker
-
-region
-
-Visualizing relationships between variables
-
-Preparing features for machine learning
-
-2. Heart Disease Dataset Analysis (Heart.ipynb)
-
-This notebook performs exploratory data analysis and preprocessing on a heart disease dataset to understand medical factors that may indicate heart disease.
-
-Steps Performed
-
-Data loading
-
-Data preprocessing
-
-Data cleaning
-
-Feature analysis
-
-Visualization of important medical attributes
-
-Dataset Features
-
-Some important features analyzed include:
-
-age
-
-sex
-
-chest pain type
-
-blood pressure
-
-cholesterol
-
-maximum heart rate
-
-exercise induced angina
-
-The notebook helps identify patterns and relationships that may contribute to predicting heart disease.
-
-Technologies Used
-
-Python
-
-Jupyter Notebook
-
-Pandas (data analysis)
-
-NumPy (numerical operations)
-
-Matplotlib & Seaborn (data visualization)
-
-How to Run the Project
-
-Clone the repository
-
-git clone https://github.com/your-username/ML-work-.git
-
-Navigate to the folder
-
+▶️ How to Run the Project
+1️⃣ Clone the Repository
+git clone https://github.com/himanshukhetwal/ML-work-.git
+2️⃣ Navigate to the Project Folder
 cd ML-work-
-
-Open Jupyter Notebook
-
+3️⃣ Open Jupyter Notebook
 jupyter notebook
+4️⃣ Run the Notebook
 
-Open any notebook file and run the cells.
+Open any .ipynb file and run the cells step by step.
 
-Learning Objectives
+🎯 Future Improvements
 
-This project demonstrates:
+Possible improvements to this project:
 
-Data cleaning techniques
+Build Machine Learning models
 
-Exploratory Data Analysis (EDA)
+Apply classification algorithms
 
-Feature engineering
+Perform feature selection
 
-Data visualization
+Evaluate models using metrics like accuracy, precision, recall
 
-Preparing datasets for machine learning models
-
-Author
+👨‍💻 Author
 
 Himanshu Khetwal
 Computer Science Engineering Student
-Interested in Machine Learning, Data Science, and Software Development.
+Graphic Era Hill University
