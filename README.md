@@ -1,150 +1,148 @@
-# Insurance Dataset Analysis (EDA & Preprocessing)
+Machine Learning Exploratory Data Analysis (EDA)
 
-## 📌 Project Overview
+This repository contains Jupyter Notebook files that demonstrate data analysis, preprocessing, and feature engineering on real-world datasets using Python.
 
-This project performs **Exploratory Data Analysis (EDA), Data Cleaning, and Feature Engineering** on the **Insurance dataset** to understand how different factors influence medical insurance charges.
+The goal of this project is to understand datasets, clean the data, perform exploratory data analysis (EDA), and prepare the data for machine learning models.
 
-The notebook analyzes relationships between variables such as **age, BMI, smoking habits, number of children, and gender** with insurance costs.
-
-The goal is to:
-
-* Understand the dataset
-* Identify patterns and correlations
-* Prepare the data for machine learning models
-
----
-
-## 📂 Dataset
-
-The dataset used in this project is **insurance.csv**, which contains the following features:
-
-| Feature  | Description            |
-| -------- | ---------------------- |
-| age      | Age of the individual  |
-| sex      | Gender (male/female)   |
-| bmi      | Body Mass Index        |
-| children | Number of dependents   |
-| smoker   | Smoking status         |
-| region   | Residential region     |
-| charges  | Medical insurance cost |
-
----
-
-## ⚙️ Technologies Used
-
-* Python
-* NumPy
-* Pandas
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Jupyter Notebook
-
----
-
-## 🔎 Project Steps
-
-### 1️⃣ Data Loading
-
-The dataset is loaded using **Pandas** and inspected using:
-
-* `.head()`
-* `.info()`
-* `.describe()`
-
-### 2️⃣ Exploratory Data Analysis (EDA)
-
-Various visualizations are used to understand the dataset:
-
-* Histograms for numerical variables
-* Count plots for categorical variables
-* Boxplots for outlier detection
-* Correlation heatmap
-
-### 3️⃣ Data Cleaning
-
-* Duplicate rows are removed
-* Missing values are checked
-* Data types are verified
-
-### 4️⃣ Feature Engineering
-
-Categorical variables are converted to numerical values for analysis.
-
-Example:
-
-* male → 0
-* female → 1
-
-### 5️⃣ Correlation Analysis
-
-Correlation between variables is analyzed to understand which features affect **insurance charges**.
-
----
-
-## 📊 Visualizations Included
-
-The notebook includes multiple plots:
-
-* Distribution plots
-* Count plots
-* Box plots
-* Heatmap for correlations
-
-These visualizations help identify trends such as:
-
-* Impact of smoking on insurance charges
-* BMI distribution
-* Age vs insurance cost patterns
-
----
-
-## 📁 Project Structure
-
-```
+Project Structure
 ML-work-
 │
-├── insurance.csv
-├── Untitled.ipynb
+├── Untitled.ipynb     # Insurance dataset analysis
+├── Heart.ipynb        # Heart disease dataset analysis
 └── README.md
-```
+Notebooks Overview
+1. Insurance Dataset Analysis (Untitled.ipynb)
 
----
+This notebook focuses on analyzing an insurance dataset to understand factors affecting medical insurance charges.
 
-## ▶️ How to Run the Project
+Steps Performed
 
-1. Clone the repository
-2. Install required libraries
-3. Run the Jupyter Notebook
+Import required libraries
 
-Install dependencies:
+Load dataset
 
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
+Data exploration
 
-Open the notebook:
+Data cleaning
 
-```bash
+Handling missing values
+
+Feature engineering
+
+Data visualization
+
+Correlation analysis
+
+Libraries Used
+
+numpy
+
+pandas
+
+seaborn
+
+matplotlib
+
+Example Tasks
+
+Checking dataset shape and structure
+
+Understanding features like:
+
+age
+
+BMI
+
+children
+
+smoker
+
+region
+
+Visualizing relationships between variables
+
+Preparing features for machine learning
+
+2. Heart Disease Dataset Analysis (Heart.ipynb)
+
+This notebook performs exploratory data analysis and preprocessing on a heart disease dataset to understand medical factors that may indicate heart disease.
+
+Steps Performed
+
+Data loading
+
+Data preprocessing
+
+Data cleaning
+
+Feature analysis
+
+Visualization of important medical attributes
+
+Dataset Features
+
+Some important features analyzed include:
+
+age
+
+sex
+
+chest pain type
+
+blood pressure
+
+cholesterol
+
+maximum heart rate
+
+exercise induced angina
+
+The notebook helps identify patterns and relationships that may contribute to predicting heart disease.
+
+Technologies Used
+
+Python
+
+Jupyter Notebook
+
+Pandas (data analysis)
+
+NumPy (numerical operations)
+
+Matplotlib & Seaborn (data visualization)
+
+How to Run the Project
+
+Clone the repository
+
+git clone https://github.com/your-username/ML-work-.git
+
+Navigate to the folder
+
+cd ML-work-
+
+Open Jupyter Notebook
+
 jupyter notebook
-```
 
----
+Open any notebook file and run the cells.
 
-## 🎯 Future Improvements
+Learning Objectives
 
-* Build Machine Learning models to predict insurance charges
-* Feature scaling and normalization
-* Model evaluation and comparison
-* Deployment using a web app
+This project demonstrates:
 
----
+Data cleaning techniques
 
-## 👨‍💻 Author
+Exploratory Data Analysis (EDA)
 
-**Himanshu Khetwal**
+Feature engineering
 
+Data visualization
+
+Preparing datasets for machine learning models
+
+Author
+
+Himanshu Khetwal
 Computer Science Engineering Student
-Interested in **Machine Learning, Data Science, and Software Development**
-
----
+Interested in Machine Learning, Data Science, and Software Development.
