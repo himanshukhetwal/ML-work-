@@ -213,8 +213,3 @@ Perform feature selection
 
 Evaluate models using metrics like accuracy, precision, recall
 
-👨‍💻 Author
-
-Himanshu Khetwal
-Computer Science Engineering Student
-Graphic Era Hill University
